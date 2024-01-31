@@ -1,0 +1,22 @@
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.rocket {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  animation: moveToCenter 1s forwards;
+}
+
+@keyframes moveToCenter {
+  to {
+    left: 250px; /* 中心位置 */
+    top: 240px; /* 中心位置 */
+    transform: translate(-50%, -50%) rotate(var(--rotate)); /* 保持初始旋转 */
+    opacity: 0;
+  }
+}

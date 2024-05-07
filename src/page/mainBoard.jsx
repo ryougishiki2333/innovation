@@ -1,10 +1,9 @@
 const MainBoard = () => {
   return (
     <>
+      <div className="w-[200px] bg-black">123123123</div>
     </>
   );
 };
 
 export default MainBoard;
-// 红色的英语是red
-// 棕色的英语是brown

@@ -1,4 +1,10 @@
 # Logs
+
+
+package-lock.json
+
+yarn.lock
+
 logs
 *.log
 npm-debug.log*
@@ -11,6 +17,8 @@ node_modules
 dist
 dist-ssr
 *.local
+
+output.css
 
 # Editor directories and files
 .vscode/*
